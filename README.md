@@ -53,7 +53,6 @@ BACKEND LOCAL
   - Can do smaller amounts, and pricing works same as above
   - High tack with lamination seems the best so far
   - $17 minimum for 10
-- ssh penguinuser@170.64.238.174
 
 ## Penguins to print
 
