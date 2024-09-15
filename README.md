@@ -1,5 +1,7 @@
 # penguins
 
+This is a work in progress art project. Intended to be backend for a small collection game to be played by scanning qr code stickers in Melbourne.
+
 ## Todo
 
 - test on vps / domain name
