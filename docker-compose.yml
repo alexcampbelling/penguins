@@ -9,6 +9,8 @@ services:
       - ./frontend/.env
     depends_on:
       - backend
+    mem_limit: 512m
+    memswap_limit: 1g
 
   backend:
     build:
