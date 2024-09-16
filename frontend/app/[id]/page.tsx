@@ -117,7 +117,8 @@ export default function PenguinPage() {
           {collectionInfo && (
             <div className="text-center mt-4">
               <p>
-                Congratulations! You've collected {collectionInfo.newPenguin}!
+                Congratulations! You&apos;ve collected{" "}
+                {collectionInfo.newPenguin}!
               </p>
               <p>
                 You have now collected {collectionInfo.penguinsCollected}{" "}

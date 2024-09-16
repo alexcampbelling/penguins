@@ -50,7 +50,9 @@ export default function UserPage() {
 
   return (
     <div className="min-h-screen bg-gray-100 p-4">
-      <h1 className="text-3xl font-bold mb-4">{user.username}'s Collection</h1>
+      <h1 className="text-3xl font-bold mb-4">
+        {user.username}&apos;s Collection
+      </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {user.penguins.map((penguin) => (
           <div key={penguin.id} className="bg-white rounded-lg shadow-md p-4">
