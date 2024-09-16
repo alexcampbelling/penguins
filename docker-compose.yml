@@ -24,8 +24,6 @@ services:
       - "3001:3001"
     env_file:
       - ./backend/.env
-    environment:
-      - POSTGRES_HOST=db
     depends_on:
       - db
     deploy:
